@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.top-menu {
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: 2px 0px 5px 0px #9c9292;
+          box-shadow: 2px 0px 5px 0px #9c9292;
+}
+
+.top-menu nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-menu nav .nav-logo img {
+  width: 111px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-right: 15px;
+}
+
+.top-menu nav .nav-logo a {
+  padding: 37px 20px;
+}
+
+.top-menu nav .nav-logo a span {
+  color: #272727;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.top-menu nav .nav-logo a span:hover {
+  border-bottom: 2px solid green;
+}
+
+.top-menu nav .nav-logo .link {
+  padding: 37px 20px;
+}
+
+.top-menu nav .nav-logo .link span {
+  color: #272727;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 2px solid green;
+}
+
+.top-menu nav .nav-login button {
+  color: #666666;
+  font-size: 13px;
+  background: #f5f5f5;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.top-menu nav .nav-login button:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.question {
+  padding: 120px 0;
+  text-align: center;
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #ccc;
+}
+
+.question h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.question h4 {
+  font-size: 17px;
+  color: #00000080;
+  margin: 15px 120px 0;
+}
+
+.guest {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.guest .sub {
+  padding: 30px 20px 30px 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.guest .sub i {
+  color: #3DB13D;
+}
+
+.guest .sub h2 {
+  color: #333;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.text {
+  border-bottom: 1px solid #ccc;
+  padding: 30px 0;
+}
+
+.text .txt {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.text .txt h2 {
+  color: #333;
+  font-size: 16px;
+}
+
+.text .txt p {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.text .txt1 {
+  border-bottom: none;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item .copy {
+  padding: 20px 0;
+  font-size: 14px;
+  color: #868686;
+}
+
+.item .icon-item {
+  padding: 20px 0;
+}
+
+.item .icon-item ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.item .icon-item ul li i {
+  padding: 8px;
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 2px solid #ccc;
+  color: #645d5d;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.item .icon-item ul li i:hover {
+  background-color: #645d5d;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
